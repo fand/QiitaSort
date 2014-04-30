@@ -1,0 +1,13 @@
+{
+    "name": "QiitaSort",
+    "version": "0.0.0",
+    "description": "Add sort button to qiita search",
+    "background_page" : "background.html",
+    "options_page": "options.html",
+    "icons": {
+        "16" : "images/GB-19.png",
+        "48" : "images/GB-48.png",
+        "128" : "images/GB-128.png"
+    },
+    "permissions": ["tabs"]
+}
