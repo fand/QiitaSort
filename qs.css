@@ -1,0 +1,11 @@
+.page-header > .QS-btn {
+    float: right;
+    margin-left: 10px;
+}
+
+.page-header:after {
+    content: "";
+    clear: both;
+    display: block;
+
+}

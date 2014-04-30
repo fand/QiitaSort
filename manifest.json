@@ -1,10 +1,16 @@
 {
     "manifest_version": 2,
-    
+
     "name": "QiitaSort",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Add sort button to qiita search",
-    "background_page": "background.html",    
+    "content_scripts": [
+        {
+            "matches": ["http://qiita.com/search*"],
+            "js": ["qs.js"],
+            "css": ["qs.css"]
+        }
+    ],
     "icons": {
         // "16" : "img/QS-19.png",
         // "48" : "img/QS-48.png",
