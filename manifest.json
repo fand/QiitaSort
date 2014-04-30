@@ -11,10 +11,8 @@
             "css": ["qs.css"]
         }
     ],
+    "permissions": ["tabs"],
     "icons": {
-        // "16" : "img/QS-19.png",
-        // "48" : "img/QS-48.png",
         "128" : "img/qs128.png"
-    },
-    "permissions": ["tabs"]
+    }
 }
